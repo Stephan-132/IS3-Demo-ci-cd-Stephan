@@ -46,7 +46,7 @@ class LiquidacionResponse(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"status": "ok", "service": "api-liquidacion"}
+    return {"status": "ok", "service": "api-liquidacion", "Stephan Lang": "2026"}
 
 
 @app.get("/health")
